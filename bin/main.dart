@@ -6,4 +6,8 @@ void main() {
   acc.deposite(100);
 
   print(acc.balance);
+
+  acc.withDraw(50);
+
+  print(acc.balance);
 }
